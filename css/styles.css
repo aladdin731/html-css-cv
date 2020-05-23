@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top {
+  background-color: #cceabb;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.middle {
+  padding-top: 100px;
+  background-color: #8ccbbe;
+  padding-bottom: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+p {
+  line-height: 2;
+}
+
+.lion {
+  height: 15%;
+  width: 15%;
+}
+
+.skillpicture {
+  height: 25%;
+  width: 25%;
+  margin-right: 50px;
+  float: left;
+}
+
+.middlepicture {
+  height: 25%;
+  width: 25%;
+  margin-left: 30px;
+}
+
+.project {
+  height: 20%;
+  width: 20%;
+}
+
+.bottom {
+  padding-top: 20px;
+  background-color: #E4F9F5;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: #dddddd;
+  margin: 50px auto;
+  width: 5%;
+  border-width: 4px;
+  height: 0;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 10;
+  padding: 20px;
+  background-color: #90CCCC;
+  -webkit-box-shadow: 1px 1px 20px 0 ;
+  -moz-box-shadow: 1px 1px 20px 0 ;
+  box-shadow: 1px 1px 20px 0 ;
+  text-shadow: 1px 1px 20px ;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+a{
+  color:#11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#8ccbbe;
+}
+
+.copyright{
+  color:#8ccbbe;
+  font-size: 0.75rem;
+  padding:20px 0;
+}
